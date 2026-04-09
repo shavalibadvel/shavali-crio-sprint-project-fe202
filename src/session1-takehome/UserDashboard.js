@@ -10,7 +10,7 @@ const UserDashboard = () => {
 
     try {
       const response = await axios.get(url);
-      //console.log(response.data);
+      //console.log(response.data);vjkgbbjgeruijk
       setUser(response.data);
     } catch (error) {
       setUser(null);
